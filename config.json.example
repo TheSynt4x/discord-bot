@@ -1,0 +1,6 @@
+// remove .example from the name and change the settings
+{
+  "token": "",
+  "prefix": "!",
+  "selfbot": true,
+}
