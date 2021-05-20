@@ -63,7 +63,6 @@ class MemeCommands(commands.Cog):
     await ctx.send('%s\n%s' % (joke.get('setup'), joke.get('punchline')))
 
   @commands.command(name='8ball')
-  @remove_last_message()
   async def magic_ball(self, ctx, *args):
     if not ' '.join(args).endswith('?'):
       await ctx.send('You must provide a question.')
